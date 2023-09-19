@@ -1,0 +1,27 @@
+.speech {
+    font-family: monospace;
+    font-size: 20px;
+    color: black;
+}
+.direction {
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: black;
+    background-color: lightyellow;
+
+}
+.berta {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    color: blueviolet;
+    background-color: lightcyan;
+
+
+}
+.tesman{
+    font-family: Times, serif;
+    font-size: 30px;
+    color: brown;
+    background-color: lightblue;
+
+}
