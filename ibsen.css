@@ -57,26 +57,37 @@ tr:nth-child(even)
     text-shadow:2px 3px 5px green;
     border: 2px lightblue;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: green;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+  ul.navbar{
+
+    width:100 px;
+    background-color:beige;
+    }
+    
+    ul.navbar li {
+        display: inline;
+        margin-right: 30px;
+    }
+    
+    ul.navbar a {
+        display: inline;
+        text-decoration: none; 
+        color:black;
+        font-weight: bold;
+    }
+    
+    
+    ul.navbar a:hover {
+        color: #FF5733;
+    }
+    
+    .container {
+        text-align: center; /* Center the image horizontally */
+        margin: 20px; /* Add spacing around the image container */
+    }
+    
+    img{
+        max-width: 100%; 
+        height: auto;
+        border: 2px solid grey;
+        box-shadow: 0 0 10px black;
+    }
